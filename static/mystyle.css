@@ -1,5 +1,6 @@
 body {
-    background-color: RGBA(232, 52, 78, 0.2);
+    /*background-color: RGBA(232, 52, 78, 0.2);*/
+    background-color: #3482e8;
     min-height: 100vh;
   }
   
@@ -19,7 +20,7 @@ body {
   }
   
   .is-sparta {
-    color: #e8344e !important;
+    color: #3482e8 !important;
   }
   
   .button.is-sparta {

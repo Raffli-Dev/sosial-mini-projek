@@ -1,3 +1,4 @@
+# sebelum belajar crud wajib mengetahui ORM
 from flask import Flask,redirect,url_for,render_template,request,jsonify
 import jwt
 import os
@@ -22,10 +23,8 @@ DB_NAME =  os.environ.get("DB_NAME")
 
 client = MongoClient(MONGODB_URI)
 db = client[DB_NAME]
-
 # Kunci rahasia untuk JWT
 SECRET_KEY = "mytoken"
-
 # Route untuk halaman utama
 @app.route("/")
 def home():
